@@ -1,0 +1,5 @@
+bazel-bin/im2txt/run_inference \
+  --checkpoint_path="/home/himanshu/DL/caption/hindi_img_captioner/train_base/" \
+  --vocab_file="/home/himanshu/DL/caption/hindi_img_captioner/tf_record_base/word_counts.txt" \
+  --input_files="/home/himanshu/DL/caption/hindi_img_captioner/demo/*.jpg"
+

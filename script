@@ -1,0 +1,6 @@
+bazel-bin/im2txt/train \
+  --input_file_pattern="/home/himanshu/DL/caption/hindi_img_captioner/tf_record_base/train-?????-of-00256" \
+  --inception_checkpoint_file="/home/himanshu/DL/caption/hindi_img_captioner/train_base/inception/inception_v3.ckpt" \
+  --train_dir="/home/himanshu/DL/caption/hindi_img_captioner/train_base/" \
+  --train_inception=false \
+  --number_of_steps=1000000
